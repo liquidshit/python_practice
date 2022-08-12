@@ -1,6 +1,6 @@
 import re
 import os
-# 'bible.txt' in script-directory is expected
+# 'bible_word_counter_text.txt' in script-directory is expected
 raw_slash = ('\\')
 path = os.getcwd() + raw_slash
 def_path = (f'{path}bible_word_counter_text.txt')
