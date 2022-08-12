@@ -3,7 +3,7 @@ import os
 # 'bible.txt' in script-directory is expected
 raw_slash = ('\\')
 path = os.getcwd() + raw_slash
-def_path = (f'{path}bible.txt')
+def_path = (f'{path}bible_word_counter_text.txt')
 print(def_path)
 # import text file and define .read and .lower
 text_file = open(def_path, encoding='utf-8').read().lower()
